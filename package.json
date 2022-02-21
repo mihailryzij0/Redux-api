@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --silent --coverage --coverageReporters='text' --coverageReporters='text-summary'",
-    "lint": "eslint . && stylelint \"**/*.scss\" && prettier --check .",
-    "lint:fix": "eslint . --fix && stylelint \"**/*.scss\" --fix && prettier --write .",
+    "test": "jest",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
     "prepare": "husky install",
     "build": "webpack build --node-env production",
     "dev": "webpack serve --open",
